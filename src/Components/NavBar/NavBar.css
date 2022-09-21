@@ -1,10 +1,16 @@
 .navBar{
     background-color: whitesmoke;
-}
-body{
-    color: black;
+    font-display: flex;
+    }
+
+.tituloPag{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 
-h2{
-    color: black;
+.menuNav{
+    display: flex;
+    justify-content: space-evenly;
 }

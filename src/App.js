@@ -1,16 +1,18 @@
-
+import React from 'react';
 import './App.css';
 import ItemLisContainer from './Components/ItemListContainer/ItemListContainer';
 import NavBar from './Components/NavBar/NavBar';
 
 
+
 function App() {
-  let titulo = "Hola Mundo";
+  let hero = "Hola Mundo";
   return (
     <div className="App">
-      <NavBar/>
+      
       <header className="App-header">
-        <h1>{titulo}</h1>
+      <NavBar/>
+        <h1>{hero}</h1>
       </header>
       <ItemLisContainer/>
     </div>

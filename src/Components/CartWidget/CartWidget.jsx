@@ -8,7 +8,7 @@ import * as iconList from "@fortawesome/free-solid-svg-icons";
 function CartWidget() {
     return(
         <div>
-        <FontAwesomeIcon icon={faCartArrowDown}/>
+        <FontAwesomeIcon icon={faCartArrowDown}/> 
         </div>
     );
 }

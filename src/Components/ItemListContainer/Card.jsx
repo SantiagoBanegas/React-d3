@@ -1,5 +1,7 @@
 import React from "react";
 import "./card.css";
+import Button from "../Button/Button"
+import ItemCount from "../ItemCount/ItemCount";
 
 function Card(props) {
     return(
@@ -12,7 +14,15 @@ function Card(props) {
                 <p> {props.detail} </p>
                 <h4>$ {props.price} </h4>
             </div>
+
+            {/* <div className="boton-card">
             <a href="#">Ver mas</a>
+            </div> */}
+
+        <Button >
+            Ver Mas
+        </Button>
+        <ItemCount/>
         </div>
     )
 
